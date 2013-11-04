@@ -1,0 +1,8 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook "elasticsearch", git: "https://github.com/sportngin/cookbook-elasticsearch"
+cookbook "postgresql"
+cookbook "imagemagick"
+cookbook "database"
+cookbook "swap"
+cookbook "deploy", path: "deploy"
