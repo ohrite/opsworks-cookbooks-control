@@ -7,5 +7,6 @@ version          "0.0.1"
 
 provides "deploy::postgresql"
 
+depends "swap"
 depends "database"
 depends "postgresql"
