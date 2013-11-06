@@ -22,10 +22,16 @@ SITE
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
-    swap (0.3.6)
     windows (1.11.0)
       chef_handler (>= 0.0.0)
     xfs (1.1.0)
+
+GIT
+  remote: https://github.com/joeyAghion/opsworks_custom_env
+  ref: master
+  sha: 0c353cf586b60d72e076d3e738a66ebe640f5e2c
+  specs:
+    opsworks_custom_env (0.3.0)
 
 GIT
   remote: https://github.com/sportngin/cookbook-elasticsearch
@@ -47,6 +53,6 @@ DEPENDENCIES
   deploy (>= 0)
   elasticsearch (>= 0)
   imagemagick (>= 0)
+  opsworks_custom_env (>= 0)
   postgresql (>= 0)
-  swap (>= 0)
 

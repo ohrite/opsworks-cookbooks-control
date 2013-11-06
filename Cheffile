@@ -4,5 +4,5 @@ cookbook "elasticsearch", git: "https://github.com/sportngin/cookbook-elasticsea
 cookbook "postgresql"
 cookbook "imagemagick"
 cookbook "database"
-cookbook "swap"
 cookbook "deploy", path: "deploy"
+cookbook "opsworks_custom_env", git: "https://github.com/joeyAghion/opsworks_custom_env"

@@ -8,4 +8,5 @@ RSpec.configure do |config|
   config.filter_run :focus
   config.order = 'random'
   config.cookbook_path = File.expand_path("../../cookbooks", __FILE__)
+  config.include(FakeRecipeHelpers)
 end
